@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['Список_20задач',['Список задач',['../todo.html',1,'']]]
+  ['is_5fprime',['is_prime',['../namespacecommon.html#a73a0c47ab023f0bbfeb4baff14c8df99',1,'common']]]
 ];

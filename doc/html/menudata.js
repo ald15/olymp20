@@ -5,6 +5,7 @@ var menudata={children:[
 {text:"Пространства имен",url:"namespaces.html"},
 {text:"Члены пространств имен",url:"namespacemembers.html",children:[
 {text:"Указатель",url:"namespacemembers.html"},
-{text:"Функции",url:"namespacemembers_func.html"}]}]},
+{text:"Функции",url:"namespacemembers_func.html"},
+{text:"Переменные",url:"namespacemembers_vars.html"}]}]},
 {text:"Файлы",url:"files.html",children:[
 {text:"Файлы",url:"files.html"}]}]}

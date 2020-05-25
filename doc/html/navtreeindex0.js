@@ -1,13 +1,18 @@
 var NAVTREEINDEX0 =
 {
+"_hi_8py.html":[2,0,1],
+"_hi_8py.html#a14f94e529dff0b8bfba8e16fbe9755d6":[2,0,1,0],
+"_hi_8py_source.html":[2,0,1],
 "common_8py.html":[2,0,0],
 "common_8py.html#a73a0c47ab023f0bbfeb4baff14c8df99":[2,0,0,0],
 "common_8py_source.html":[2,0,0],
 "files.html":[2,0],
 "index.html":[],
+"namespace_hi.html":[1,0,1],
 "namespacecommon.html":[1,0,0],
 "namespacemembers.html":[1,1,0],
 "namespacemembers_func.html":[1,1,1],
+"namespacemembers_vars.html":[1,1,2],
 "namespaces.html":[1,0],
 "pages.html":[],
 "todo.html":[0]

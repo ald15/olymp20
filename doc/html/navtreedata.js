@@ -6,7 +6,8 @@ var NAVTREE =
       [ "Пространства имен", "namespaces.html", "namespaces" ],
       [ "Члены пространств имен", "namespacemembers.html", [
         [ "Указатель", "namespacemembers.html", null ],
-        [ "Функции", "namespacemembers_func.html", null ]
+        [ "Функции", "namespacemembers_func.html", null ],
+        [ "Переменные", "namespacemembers_vars.html", null ]
       ] ]
     ] ],
     [ "Файлы", null, [
@@ -17,7 +18,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"common_8py.html"
+"_hi_8py.html"
 ];
 
 var SYNCONMSG = 'нажмите на выключить для синхронизации панелей';

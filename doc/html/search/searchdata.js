@@ -1,10 +1,11 @@
 var indexSectionsWithContent =
 {
-  0: "ciÐ",
-  1: "c",
-  2: "c",
+  0: "chizÐ",
+  1: "ch",
+  2: "ch",
   3: "i",
-  4: "Ð"
+  4: "z",
+  5: "Ð"
 };
 
 var indexSectionNames =
@@ -13,7 +14,8 @@ var indexSectionNames =
   1: "namespaces",
   2: "files",
   3: "functions",
-  4: "pages"
+  4: "variables",
+  5: "pages"
 };
 
 var indexSectionLabels =
@@ -22,6 +24,7 @@ var indexSectionLabels =
   1: "Пространства имен",
   2: "Файлы",
   3: "Функции",
-  4: "Страницы"
+  4: "Переменные",
+  5: "Страницы"
 };
 
