@@ -11,10 +11,9 @@
 #
 # @return True, если число простое,
 # @return False в противном случае.
-# @todo Оптимизировать границу цикла поиска, там вроде до корня как-то можно,
-#       но я забыл как.
+# 
 #
-import math
+from math import sqrt
 def is_prime(n):
     if n == 1:
         return False
