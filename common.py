@@ -2,7 +2,7 @@
 # @file
 # @brief    Файлик с ништяками, которые могут потребоваться внезапно
 #           и должны быть под рукой всегда.
-# @author   Danya0x07
+# @author   Danya0x07, Werther
 #
 
 ##
@@ -14,10 +14,11 @@
 # @todo Оптимизировать границу цикла поиска, там вроде до корня как-то можно,
 #       но я забыл как.
 #
+import math
 def is_prime(n):
     if n == 1:
         return False
-    for i in range(2, (n // 2) + 1):
+    for i in range(2, int(sqrt(n)) + 2):
         if n % i == 0:
             return False
     return True
