@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['is_5fprime',['is_prime',['../namespacecommon.html#a73a0c47ab023f0bbfeb4baff14c8df99',1,'common']]]
+  ['bye',['bye',['../namespacebye.html',1,'']]],
+  ['bye_2epy',['bye.py',['../bye_8py.html',1,'']]]
 ];

@@ -5,12 +5,12 @@
 
 int main(void)
 {
-    uint max_len, n, k = 0, sect = 0, c = 0;
+    int max_len, n, k = 0, sect = 0, c = 0;
     scanf("%d", &max_len);
     scanf("%d", &n);
-    for (uint i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         scanf("%d", &c);
-        if (c == 1 && sect == 0) {
+        if (c == 1 && sect <= i) {
             k++;
             sect = i + max_len - 1;
         }

@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Шайтан репа: Исходный файл 5.py</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Шайтан репа
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('5_8py_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">5.py</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="5_8py.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="namespace5.html">    1</a></span>&#160;</div><div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="namespace5.html#a4c48dae8d1b289b9a08cb328c81754b4">    2</a></span>&#160;<span class="keyword">def </span><a class="code" href="namespace5.html#a4c48dae8d1b289b9a08cb328c81754b4">su</a>(n):</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    s = 0</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    <span class="keywordflow">while</span> n:</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        s += n % 10</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        n //= 10</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> s</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="namespace5.html#a076fc48ead172b126e95528c5df4613d">    9</a></span>&#160;<span class="keyword">def </span><a class="code" href="namespace5.html#a076fc48ead172b126e95528c5df4613d">main</a>(a, b, s):</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    count = 0</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> s % 2 == 1:</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        count += 1</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(a + 1, b + 1):</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">if</span>   i % 1000000000 == 0:</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            s -= 9 * 9</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">elif</span> i % 100000000 == 0:</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            s -= 9 * 8</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">elif</span> i % 10000000 == 0:</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            s -= 9 * 7</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">elif</span> i % 1000000 == 0:</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            s -= 9 * 6</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">elif</span> i % 100000 == 0:</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            s -= 9 * 5</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">elif</span> i % 10000 == 0:</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            s -= 9 * 4</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">elif</span> i % 1000 == 0:</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            s -= 9 * 3</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">elif</span> i % 100 == 0:</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            s -= 9 * 2</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">elif</span> i % 10 == 0:</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            s -= 9 </div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        s+=1</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span> s % 2 == 1:</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="comment">#print(i)</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            count += 1</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">return</span> count</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;a, b = int(input()), int(input())</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="namespace5.html#ab6c34f35c90e8efe325b86aaa84b7f3a">   39</a></span>&#160;sA = <a class="code" href="namespace5.html#a4c48dae8d1b289b9a08cb328c81754b4">su</a>(a)</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="namespace5.html#a8db35bac6311b6ba0e49b67bad57ddae">   41</a></span>&#160;con = 100000</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordflow">if</span> a - b &lt;= con:</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="namespace5.html#a1253f07aa0c28739918c8b7d186fe988">   43</a></span>&#160;    count = <a class="code" href="namespace5.html#a076fc48ead172b126e95528c5df4613d">main</a>(a, b, sA)</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordflow">else</span>:</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="namespace5.html#a3564523e8be30ecfcdfd1fb96356166a">   45</a></span>&#160;    sAM = (a + con - 1) // con * con</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="namespace5.html#ae4267266c69766902a70a4aeaa2924ee">   46</a></span>&#160;    sBM = b // con * con</div><div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="namespace5.html#aea9cdae1d2000b7728a26fac821442f4">   47</a></span>&#160;    cM = <a class="code" href="namespace5.html#a076fc48ead172b126e95528c5df4613d">main</a>(sAM // con, sBM // con, <a class="code" href="namespace5.html#a4c48dae8d1b289b9a08cb328c81754b4">su</a>(sAM))</div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="namespace5.html#a6f364afbe132c4ecfea48bde1b0618ba">   48</a></span>&#160;    d = sBM - sAM + 1</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="namespace5.html#a4005fd585a72df3fe173300594dfab61">   49</a></span>&#160;    r = cM * 49999 + (d - cM) * 50001</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    r = <a class="code" href="namespace5.html#a076fc48ead172b126e95528c5df4613d">main</a>(a, sAM - 1, <a class="code" href="namespace5.html#a4c48dae8d1b289b9a08cb328c81754b4">su</a>(a)) + r + <a class="code" href="namespace5.html#a076fc48ead172b126e95528c5df4613d">main</a>(sBM, b, <a class="code" href="namespace5.html#a4c48dae8d1b289b9a08cb328c81754b4">su</a>(SBM))</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    count = r</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;print(count)</div><div class="ttc" id="namespace5_html_a4c48dae8d1b289b9a08cb328c81754b4"><div class="ttname"><a href="namespace5.html#a4c48dae8d1b289b9a08cb328c81754b4">5.su</a></div><div class="ttdeci">def su(n)</div><div class="ttdef"><b>Definition:</b> <a href="5_8py_source.html#l00002">5.py:2</a></div></div>
+<div class="ttc" id="namespace5_html_a076fc48ead172b126e95528c5df4613d"><div class="ttname"><a href="namespace5.html#a076fc48ead172b126e95528c5df4613d">5.main</a></div><div class="ttdeci">def main(a, b, s)</div><div class="ttdef"><b>Definition:</b> <a href="5_8py_source.html#l00009">5.py:9</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="5_8py.html">5.py</a></li>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

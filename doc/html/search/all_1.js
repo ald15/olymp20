@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['hi',['Hi',['../namespace_hi.html',1,'']]],
-  ['hi_2epy',['Hi.py',['../_hi_8py.html',1,'']]]
+  ['a',['a',['../namespacezad__1.html#a4124bc0a9335c27f086f24ba207a4912',1,'zad_1']]]
 ];
