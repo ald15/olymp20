@@ -4,7 +4,7 @@
 n, m = map(int, input().split())
 
 warriors = [i + 1 for i in range(n)]
-next_to_kill = m
+next_to_kill = m - 1
 
 while True:
     del warriors[next_to_kill % len(warriors)]
